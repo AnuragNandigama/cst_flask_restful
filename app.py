@@ -20,4 +20,5 @@ initialize_route(api)
 bcrypt = Bcrypt(app)
 jwt = JWTManager(app)
 
-app.run()
+if __name__ == '__main__':
+    app.run()
