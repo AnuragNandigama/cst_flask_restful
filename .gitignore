@@ -1,2 +1,4 @@
-database/__pychache__
-resources/__pychache__
+database/__pycache__
+resources/__pycache__
+__pycache__
+tests/__pycache__
