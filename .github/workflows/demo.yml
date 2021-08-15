@@ -39,6 +39,12 @@ jobs:
         run: |
           python -m unittest
 
+      - uses: CDNievas/heroku-action@v1.0 # This is the action
+        with:
+          heroku_email: "raga.4067@gmail.com"
+          heroku_api_key: "ebf31ecc-d541-459a-98f2-88221eb165cc"
+          heroku_app_name: "cst-flask-git"
+
       # # Runs a single command using the runners shell
       # - name: Run a one-line script
       #   run: echo Hello, world!
